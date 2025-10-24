@@ -49,6 +49,7 @@
             txtNumero.Name = "txtNumero";
             txtNumero.Size = new Size(100, 23);
             txtNumero.TabIndex = 2;
+            txtNumero.Text = "0";
             txtNumero.TextChanged += txtNumero_TextChanged;
             // 
             // lstTabla
