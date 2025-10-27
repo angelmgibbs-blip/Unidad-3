@@ -110,6 +110,7 @@
             this.Beliminar.TabIndex = 7;
             this.Beliminar.Text = "Eliminar";
             this.Beliminar.UseVisualStyleBackColor = true;
+            this.Beliminar.Click += new System.EventHandler(this.Beliminar_Click);
             // 
             // Bordenar
             // 
@@ -119,6 +120,7 @@
             this.Bordenar.TabIndex = 8;
             this.Bordenar.Text = "Ordenar";
             this.Bordenar.UseVisualStyleBackColor = true;
+            this.Bordenar.Click += new System.EventHandler(this.Bordenar_Click);
             // 
             // Bbuscar
             // 
@@ -128,6 +130,7 @@
             this.Bbuscar.TabIndex = 9;
             this.Bbuscar.Text = "Buscar";
             this.Bbuscar.UseVisualStyleBackColor = true;
+            this.Bbuscar.Click += new System.EventHandler(this.Bbuscar_Click);
             // 
             // label2
             // 
